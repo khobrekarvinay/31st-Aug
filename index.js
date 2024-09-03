@@ -112,7 +112,7 @@ function Majority(str) {
             result[str[i]]++;
         }
         else {
-            result[str[i]] = 1;
+            result[str[i]] = 1;  // 3 = 1
         };
     }
     let maxCount = 0;
@@ -123,7 +123,7 @@ function Majority(str) {
         majorityElement = char;
       }
     }
-    return majorityElement;}
+    return majorityElement;} // 
 
 console.log(Majority([3,2,3]));
 console.log(Majority([2,2,1,1,1,2,2]));
